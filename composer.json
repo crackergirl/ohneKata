@@ -25,7 +25,6 @@
     "config": {
         "optimize-autoloader": true,
         "allow-plugins": {
-            "phpro/grumphp-shim": false,
             "phpro/grumphp": true
         }
     },
