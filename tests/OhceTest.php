@@ -18,7 +18,7 @@ final class OhceTest extends TestCase
 
         $ohceResponse = $ohce->execute("hola");
 
-        $this->assertEquals("aloh",  $ohceResponse);
+        $this->assertFalse("aloh",  $ohceResponse);
     }
 
     /**
