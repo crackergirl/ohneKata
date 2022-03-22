@@ -44,4 +44,22 @@ final class OhceTest extends TestCase
 
         $this->assertEquals("oto,Bonita palabra", $ohceResponse);
     }
+    /*
+    $timeManager = Mockery::mock(TimeManager::class)
+    $ohce = new Ohce($timeManager);
+
+    $timeManager
+    ->expects("getTime")
+    ->once()
+    ->andReturn("3")
+
+    $resposneMEssage =$ohce->execute("ohce Pedro);
+    aaserequal
+    TimeManager -< metodo getTime
+    CurrentTimeManager -> getTime devuelve la fecha
+
+
+    */
+
+
 }
