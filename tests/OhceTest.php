@@ -42,7 +42,7 @@ final class OhceTest extends TestCase
 
         $ohceResponse = $ohce->execute("oto");
 
-        $this->assertEquals("oto,Bonita palabra", $ohceResponse);
+        $this->assertEquals("oto,Bonita palabraa", $ohceResponse);
     }
     /*
     $timeManager = Mockery::mock(TimeManager::class)
